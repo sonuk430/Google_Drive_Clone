@@ -1,0 +1,97 @@
+.login {
+  position: relative;
+  /* background-color: ; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  /* border: solid green; */
+}
+
+.loginBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20rem;
+  width: 90%;
+  color: gray;
+  border-radius: 1rem;
+  height: fit-content;
+  /* border: solid orange; */
+}
+.loginBox h2 {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  height: 45px;
+  width: 100%;
+  /* border: solid; */
+}
+
+.header img {
+  height: 95%;
+  width: auto;
+}
+
+.header h2 {
+  color: gray;
+  padding: 10px;
+}
+
+.loginBox .content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  height: 70%;
+  width: 40%;
+  /* border: solid; */
+}
+
+.loginBox .content p {
+  font-size: 1.5rem;
+}
+
+.loginBox .content h1 {
+  font-size: 3rem;
+}
+
+.loginBox .imgBox {
+  height: fit-content;
+  width: 60%;
+  overflow: hidden;
+  /* border: solid; */
+}
+
+.loginBox .imgBox img {
+  height: 100%;
+  width: 100%;
+}
+
+.button {
+  background-image: linear-gradient(-180deg, #37aee2 0%, #1e96c8 100%);
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-image: linear-gradient(-180deg, #1d95c9 0%, #17759c 100%);
+}

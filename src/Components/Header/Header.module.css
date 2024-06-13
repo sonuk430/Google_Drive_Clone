@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  background-color: var(--secondary-color);
+}
+.headerLeft {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 16rem;
+  height: 100%;
+  font-size: 1rem;
+  gap: 10px;
+  padding-left: 15px;
+}
+
+.headerLeft img {
+  height: 2.5rem;
+}
+
+.headerCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.headerCenter .headerCenterContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+  width: 50rem;
+  border-radius: 1.5rem;
+  background-color: var(--therd-color);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.headerCenter .headerCenterContent input {
+  width: 50rem;
+  border-radius: 1.5rem;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  padding-left: 10px;
+  background-color: var(--therd-color);
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20px;
+  width: 16rem;
+  height: 100%;
+  font-size: 1.2rem;
+}
+
+.headerRight button {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  border: none;
+  background: none;
+}
+
+.headerRight span img {
+  width: 2rem;
+  height: 2rem;
+  border: solid 1px;
+  border-radius: 50%;
+}
